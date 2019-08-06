@@ -1,0 +1,18 @@
+了解基本概念:一个js框架
+什么是jQuery、功能、版本
+功能:选取页面元素,对页面元素进行操作
+了解CDN替代方案,引入在线jQuery
+理解jQuery的相关语法
+$(选择器).action()
+掌握jQuery的常用方法的使用
+.css(),html(),next(),addClass()
+掌握DOM对象和jQuery对象的互转
+DoM-------jQuery
+var li = document,getElementsByYagname("li");
+var $li = $(li[0]);//$(li)
+alert($li.html());
+jQuery-------DoM
+var $li = $("li");
+var li = $li[0]     // ($li.get(0))
+alert(li.innerHTML);
+注意:使用jQuery的$(选择器)获取的元素,是一个集合,使用这个元素,默认使用元素结合中的第一个
