@@ -5,7 +5,13 @@ keydown、 keyup、 keypress
 表单事件
 focus、 blur
 切换事件
-hover
+hover 组合事件(mouseover、mouseout)
 动画
-show()、hide()、 toggle()、 fadeIn()、 fadeOut()、 slideUp()、
+show()、hide()、  fadeIn()、 fadeOut()、 slideUp()、
 slideDown()
+toggle()切换显示与隐藏
+toggleClass()切换样式
+扩充方法:$(选择器1).find(选择器2);选择器2在选择器1里面,
+也就是find找里面的元素
+.sinblings(选择器):兄弟选择器
+parents(选择器):祖先代选择器
