@@ -1,0 +1,11 @@
+鼠标事件
+click、mouseover、mouseout
+键盘事件
+keydown、 keyup、 keypress
+表单事件
+focus、 blur
+切换事件
+hover
+动画
+show()、hide()、 toggle()、 fadeIn()、 fadeOut()、 slideUp()、
+slideDown()
