@@ -1,0 +1,13 @@
+样式操作：css()、 addClass()、 removeClass()、 toggleClass()
+、CSS-DOM操作
+内容操作：html()、 text()、 val()
+节点操作：查找(选择器)、创建$("html片段")、替换(replacewith)、复制(clone(true))和
+遍历子元素:遍历子元素children([选择器]);find(选择器)---查找里面的指定的选择器
+同辈:next(),prev(),siblings()
+先辈:parent(),parents([选择器])
+each()---jQuery中的循环节点
+节点属性操作：attr() 、removeAttr()
+attr(属性名)--获取此属性的值
+attr(属性名,值)--设置此属性的值
+attr({属性名:值,属性名:值})--批量设置多个属性的值
+removeAttr(属性名)
